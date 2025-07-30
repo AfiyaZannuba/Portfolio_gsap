@@ -14,23 +14,27 @@ const ProjectsSection = () => {
     const projectImages = [
         {
             id: 1,
-            title: "3D Gaming Website",
-            imageSrc: "/images/project-1.png",
+            title: "Novo Shoes (Contributed as Magento UI developer)",
+            imageSrc: "/images/project-1-1.png",
+            link: "https://www.novoshoes.com.au/"
         },
         {
             id: 2,
-            title: "Startup App",
-            imageSrc: "/images/project-2.png",
+            title: "House of Noya (Contributed as Shopify Developer)",
+            imageSrc: "/images/project-2-2.png",
+            link: "https://us.houseofnoya.com/"
         },
         {
             id: 3,
-            title: "Portfolio Website",
-            imageSrc: "/images/project-3.png",
+            title: "Azha (Contributed as Shopify Developer)",
+            imageSrc: "/images/project-3-3.png",
+            link: "https://uae.azhaperfumes.com/"
         },
         {
             id: 4,
-            title: "Awward Winning Web",
-            imageSrc: "/images/project-4.png",
+            title: "DCKAP Commerce (Contributed as Product Developer during initial development stage)",
+            imageSrc: "/images/project-4-4.png",
+            link: "https://www.dckap.com/commerce/"
         }
     ]
 
@@ -176,7 +180,7 @@ const ProjectsSection = () => {
         >
 
             {/* section title */}
-            <div className='container mx-auto px-4 mb-16 relative z-10'>
+            <div id="projects" className='container mx-auto px-4 mb-16 relative z-10'>
                 <h2 ref={titleRef} className='text-4xl md:text-5xl lg:text-6xl font-bold text-black text-center mb-4 opacity-0'>
                     Featured Projects
                 </h2>
@@ -199,7 +203,9 @@ const ProjectsSection = () => {
                                 />
 
                                 <h2 className='project-title flex items-center gap-3 md:text-3xl text-sm md:font-bold text-black mt-6 z-50 text-nowrap hover:text-gray-400 transition-colors duration-300 cursor-pointer'>
-                                    {project.title} <SlShareAlt />
+                                    <a href={project.link} target="_blank">
+                                        {project.title} <SlShareAlt />
+                                    </a>
                                 </h2>
 
                             </div>

@@ -18,7 +18,7 @@ const HeroSection = () => {
                         duration: 1.5,
                     }}
                     className="text-4xl md:text-7xl lg:text-8xl font-bold z-10 mb-6">
-                    Built to Last<br /> Designed to Connect
+                    Building Fast <br /> Reliable Results
                 </motion.h1>
 
                 <motion.p
@@ -32,7 +32,7 @@ const HeroSection = () => {
                         duration: 1.5,
                     }}
                     className="text-md md:text-1xl lg:text-2xl text-purple-200 max-w-2xl">
-                    I build fast, reliable, and production-ready websites and web apps with precision and purpose. Each project is driven by clean code, clear communication, and a results-first mindset—delivered on time, every time
+                    I build fast, reliable, and production-ready websites and web apps with precision and purpose. Each project is driven by clean code, clear communication, and a results-first mindset delivered on time, every time
                 </motion.p>
             </div>
 
